@@ -1,3 +1,65 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Lora:ital,wght@0,400;0,500;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Nunito+Sans:ital,wght@0,200;1,200;1,300;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Prompt:ital,wght@0,100;0,300;0,400;0,900;1,100;1,200;1,300;1,400&family=Raleway:ital,wght@0,100;0,300;0,400;1,100;1,300;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Work+Sans:ital,wght@0,100;0,300;1,300&display=swap");
+
+/* Concert One     */
+/* Lora      */
+/* Merriweather     */
+/* Nunito Sans   */
+/* Pt Sans  */
+/* Prompt   */
+/* Raleway  */
+/* Roboto   */
+/* Work Sans    */
+
+/*
+font-family: 'Concert One', cursive;
+font-family: 'Lora', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer components {
+  .myflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .align {
+    align-items: center;
+  }
+  .try {
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    transition: all 2000ms ease-in-out;
+    cursor: pointer;
+    font-size: 0.75rem/* 12px */;
+    line-height: 1rem/* 16px */;
+  }
+  .bye,
+  .bye {
+    transition: all 500ms ease-in-out;
+    border-radius: 999px;
+    transform: scale(0.99);
+    color: goldenrod;
+    box-sizing: content-box;
+  }
+  .w-custom{
+    width:95%;
+  }
+}

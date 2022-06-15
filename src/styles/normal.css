@@ -1,0 +1,24 @@
+:root {
+  --light_Amazon: #232f3e;
+  --dark_Amazon: #131921;
+}
+
+.hole {
+  font-size: larger;
+  color: green;
+  height: 300px;
+  display: flex;
+  background-color: goldenrod;
+  transition: all 1s ease-in-out;
+}
+
+.hole :hover,
+.hole ::before {
+  transition: all 1s ease-in-out;
+  transform: scale(1.05);
+  color: bisque;
+}
+
+main {
+  background: var(--dark_Amazon);
+}
