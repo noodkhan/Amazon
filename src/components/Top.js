@@ -85,54 +85,78 @@ let Perfume = {
   id11: "https://images.unsplash.com/photo-1530630458144-014709e10016?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
 };
 
+
+let cool = {
+  id1: "https://images.unsplash.com/photo-1646898157740-ffc540df3adb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+  id2: "https://images.unsplash.com/photo-1653374548096-de8603e6db31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700&q=80",
+  id3: "https://images.unsplash.com/photo-1645219502014-88689d94096a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1339&q=80",
+  id4: "https://images.unsplash.com/photo-1645511897949-3d687943386b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+  id5: "https://images.unsplash.com/photo-1645511897803-617335ebb916?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+  id6: "https://images.unsplash.com/photo-1645511897730-77cd50bbef41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+  id7: "https://images.unsplash.com/photo-1653606166270-113b57009c46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+  id8: "https://images.unsplash.com/photo-1654107333878-5eeba7d5be9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
+  id9: "https://images.unsplash.com/photo-1655012325191-cbc22182fa9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1412&q=80",
+  id10: "https://images.unsplash.com/photo-1651724682401-a10daf761c96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+  id11: "https://images.unsplash.com/photo-1652680882466-e83b0cccab34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1553&q=80",
+  id12: "https://images.unsplash.com/photo-1651860207580-ddc55836bd8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+  id13: "https://images.unsplash.com/photo-1651176957759-88e994301323?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80",
+  id14: "https://images.unsplash.com/photo-1653248307083-1f0cb720a287?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
+  id15: "https://images.unsplash.com/photo-1647694420044-6e42df6ca610?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+  id16: "https://images.unsplash.com/photo-1637416067365-2b5e7e8fe8fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+  id17: "https://images.unsplash.com/photo-1633269540827-728aabbb7646?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
+  id18: "https://images.unsplash.com/photo-1644251966508-47b1a3d2e56d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
+  id19: "https://images.unsplash.com/photo-1644251966613-170a26996adb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80",
+  id20: "https://images.unsplash.com/photo-1638803040283-7a5ffd48dad5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+};
+
 const firstCol = (
   <>
-    <div className="w-4/12">
+    <div className="w-3/12 flex h/12/12 flex-col gap-5">
       <Banner
-        propsOne={SofaSet.id13}
+        propsOne={SofaSet.id1}
         propsTwo={SofaSet.id2}
         propsThree={SofaSet.id3}
         propsFour={SofaSet.id4}
         propsFive={SofaSet.id5}
-        propsSix={SofaSet.id11}
+        propsSix={SofaSet.id6}
         propsSeven={SofaSet.id7}
         propsEight={SofaSet.id8}
         propsNine={SofaSet.id9}
         propsTen={SofaSet.id10}
         width={2000}
-        height={2750}
+        height={2500}
         layout={"responsive"}
         Classes={"object-cover"}
       />
       <Banner
-        propsOne={Perfume.id1}
-        propsTwo={Perfume.id2}
-        propsThree={Perfume.id3}
-        propsFour={Perfume.id4}
-        propsFive={Perfume.id5}
-        propsSix={Perfume.id6}
-        propsSeven={Perfume.id7}
-        propsEight={Perfume.id8}
-        propsNine={Perfume.id9}
-        propsTen={Perfume.id10}
+        propsOne={cool.id15}
+        propsTwo={cool.id17}
+        propsThree={cool.id3}
+        propsFour={cool.id4}
+        propsFive={cool.id5}
+        propsSix={cool.id6}
+        propsSeven={cool.id7}
+        propsEight={cool.id8}
+        propsNine={cool.id9}
+        propsTen={cool.id10}
         width={2000}
-        height={1350}
+        height={1000}
         layout={"responsive"}
         Classes={"object-cover"}
       />
       <Banner
-        propsOne={Apple.id1}
-        propsTwo={Apple.id2}
-        propsThree={Apple.id3}
-        propsFour={Apple.id4}
-        propsFive={Apple.id5}
-        propsSix={Painting.id6}
-        propsSeven={Painting.id7}
-        propsEight={Painting.id8}
-        propsNine={Painting.id9}
-        propsTen={Painting.id10}
+        propsOne={Shoes.id1}
+        propsTwo={Shoes.id2}
+        propsThree={Shoes.id3}
+        propsFour={Shoes.id4}
+        propsFive={Shoes.id5}
+        propsSix={Shoes.id6}
+        propsSeven={Shoes.id7}
+        propsEight={Shoes.id8}
+        propsNine={Shoes.id9}
+        propsTen={Shoes.id10}
         width={2000}
-        height={2285}
+        height={2500}
         layout={"responsive"}
         Classes={"object-cover"}
       />
@@ -142,52 +166,52 @@ const firstCol = (
 
 let secondCol = (
   <>
-    <div className="w-4/12">
+    <div className="w-3/12 flex h/12/12 flex-col gap-5">
       <Banner
-        propsOne={Shoes.id1}
-        propsTwo={Shoes.id2}
-        propsThree={Shoes.id3}
-        propsFour={Shoes.id4}
-        propsFive={Shoes.id5}
-        propsSix={Shoes.id6}
-        propsSeven={Shoes.id7}
-        propsEight={Shoes.id8}
-        propsNine={Shoes.id9}
-        propsTen={Shoes.id10}
+        propsOne={cool.id15}
+        propsTwo={cool.id17}
+        propsThree={cool.id3}
+        propsFour={cool.id4}
+        propsFive={cool.id5}
+        propsSix={cool.id6}
+        propsSeven={cool.id7}
+        propsEight={cool.id8}
+        propsNine={cool.id9}
+        propsTen={cool.id10}
         width={2000}
-        height={1850}
+        height={1750}
         layout={"responsive"}
         Classes={"object-cover"}
       />
       <Banner
-        propsOne={Apple.id1}
-        propsTwo={Apple.id3}
-        propsThree={Apple.id4}
-        propsFour={Apple.id5}
-        propsFive={Painting.id3}
-        propsSix={Painting.id2}
-        propsSeven={Painting.id1}
-        propsEight={Painting.id3}
-        propsNine={Painting.id2}
-        propsTen={Painting.id1}
+        propsOne={cool.id15}
+        propsTwo={cool.id3}
+        propsThree={cool.id4}
+        propsFour={cool.id5}
+        propsFive={cool.id3}
+        propsSix={cool.id17}
+        propsSeven={cool.id15}
+        propsEight={cool.id3}
+        propsNine={cool.id17}
+        propsTen={cool.id15}
         width={2000}
         height={2500}
         layout={"responsive"}
         Classes={"object-cover"}
       />
       <Banner
-        propsOne={Apple.id1}
-        propsTwo={Apple.id3}
-        propsThree={Apple.id4}
-        propsFour={Apple.id5}
-        propsFive={Painting.id3}
-        propsSix={Painting.id2}
-        propsSeven={Painting.id1}
-        propsEight={Painting.id3}
-        propsNine={Painting.id2}
-        propsTen={Painting.id1}
+        propsOne={cool.id15}
+        propsTwo={cool.id3}
+        propsThree={cool.id4}
+        propsFour={cool.id5}
+        propsFive={cool.id3}
+        propsSix={cool.id17}
+        propsSeven={cool.id15}
+        propsEight={cool.id3}
+        propsNine={cool.id17}
+        propsTen={cool.id15}
         width={2000}
-        height={2050}
+        height={1750}
         layout={"responsive"}
         Classes={"object-cover"}
       />
@@ -197,52 +221,68 @@ let secondCol = (
 
 let thirdCol = (
   <>
-    <div className="w-4/12">
+    <div className="w-3/12 flex h/12/12 flex-col gap-5">
       <Banner
-        propsOne={Images.id0}
-        propsTwo={Images.id0}
-        propsThree={Painting.id1}
-        propsFour={Painting.id1}
-        propsFive={Painting.id1}
-        propsSix={Painting.id1}
-        propsSeven={Painting.id1}
-        propsEight={Painting.id1}
-        propsNine={Images.id0}
-        propsTen={Images.id0}
+        propsOne={cool.id11}
+        propsTwo={cool.id12}
+        propsThree={cool.id13}
+        propsFour={cool.id14}
+        propsFive={cool.id15}
+        propsSix={cool.id16}
+        propsSeven={cool.id17}
+        propsEight={cool.id18}
+        propsNine={cool.id19}
+        propsTen={cool.id20}
         width={2000}
-        height={2000}
+        height={1400}
         layout={"responsive"}
         Classes={"object-cover"}
       />
       <Banner
-        propsOne={Painting.id1}
-        propsTwo={Painting.id2}
-        propsThree={Painting.id3}
-        propsFour={Painting.id3}
-        propsFive={Painting.id3}
-        propsSix={Painting.id2}
-        propsSeven={Painting.id1}
-        propsEight={Painting.id3}
-        propsNine={Painting.id2}
-        propsTen={Painting.id1}
+        propsOne={cool.id15}
+        propsTwo={cool.id17}
+        propsThree={cool.id3}
+        propsFour={cool.id3}
+        propsFive={cool.id3}
+        propsSix={cool.id17}
+        propsSeven={cool.id15}
+        propsEight={cool.id3}
+        propsNine={cool.id17}
+        propsTen={cool.id15}
         width={2000}
-        height={2000}
+        height={1500}
         layout={"responsive"}
         Classes={"object-cover"}
       />
       <Banner
-        propsOne={Painting.id1}
-        propsTwo={Painting.id2}
-        propsThree={Painting.id3}
-        propsFour={Painting.id3}
-        propsFive={Painting.id3}
-        propsSix={Painting.id2}
-        propsSeven={Painting.id1}
-        propsEight={Painting.id3}
-        propsNine={Painting.id2}
-        propsTen={Painting.id1}
+        propsOne={cool.id11}
+        propsTwo={cool.id12}
+        propsThree={cool.id13}
+        propsFour={cool.id14}
+        propsFive={cool.id15}
+        propsSix={cool.id16}
+        propsSeven={cool.id17}
+        propsEight={cool.id18}
+        propsNine={cool.id19}
+        propsTen={cool.id20}
         width={2000}
-        height={2400}
+        height={1500}
+        layout={"responsive"}
+        Classes={"object-cover"}
+      />
+      <Banner
+        propsOne={cool.id15}
+        propsTwo={cool.id17}
+        propsThree={cool.id3}
+        propsFour={cool.id3}
+        propsFive={cool.id3}
+        propsSix={cool.id17}
+        propsSeven={cool.id15}
+        propsEight={cool.id3}
+        propsNine={cool.id17}
+        propsTen={cool.id15}
+        width={2000}
+        height={1500}
         layout={"responsive"}
         Classes={"object-cover"}
       />
@@ -250,162 +290,164 @@ let thirdCol = (
   </>
 );
 
-const HalfStart = (
+let HalfEndOne = (
   <>
-    {firstCol}
-    {secondCol}
-    {thirdCol}
+    <div className="w-3/12 flex h/12/12 flex-col gap-5">
+      <Banner
+        propsOne={cool.id11}
+        propsTwo={cool.id12}
+        propsThree={cool.id13}
+        propsFour={cool.id14}
+        propsFive={cool.id15}
+        propsSix={cool.id16}
+        propsSeven={cool.id17}
+        propsEight={cool.id18}
+        propsNine={cool.id19}
+        propsTen={cool.id20}
+        width={2000}
+        height={1500}
+        layout={"responsive"}
+        Classes={"object-cover"}
+      />
+      <Banner
+        propsOne={cool.id15}
+        propsTwo={cool.id17}
+        propsThree={cool.id3}
+        propsFour={cool.id4}
+        propsFive={cool.id5}
+        propsSix={cool.id6}
+        propsSeven={cool.id7}
+        propsEight={cool.id8}
+        propsNine={cool.id9}
+        propsTen={cool.id10}
+        width={2000}
+        height={2900}
+        layout={"responsive"}
+        Classes={"object-cover"}
+      />
+      <Banner
+        propsOne={cool.id11}
+        propsTwo={cool.id12}
+        propsThree={cool.id13}
+        propsFour={cool.id14}
+        propsFive={cool.id15}
+        propsSix={cool.id16}
+        propsSeven={cool.id17}
+        propsEight={cool.id18}
+        propsNine={cool.id19}
+        propsTen={cool.id20}
+        width={2000}
+        height={1500}
+        layout={"responsive"}
+        Classes={"object-cover"}
+      />
+    </div>
   </>
 );
 
-const HalfEnd = (
+let HalfEndTwo = (
   <>
-    <div className="w-4/12">
+    <div className="w-3/12 flex h/12/12 flex-col gap-5">
       <Banner
-        propsOne={Shoes.id1}
-        propsTwo={Shoes.id2}
-        propsThree={Shoes.id3}
-        propsFour={Shoes.id4}
-        propsFive={Shoes.id5}
-        propsSix={Shoes.id6}
-        propsSeven={Shoes.id7}
-        propsEight={Shoes.id8}
-        propsNine={Shoes.id9}
-        propsTen={Shoes.id10}
+        propsOne={cool.id11}
+        propsTwo={cool.id15}
+        propsThree={cool.id3}
+        propsFour={cool.id4}
+        propsFive={cool.id5}
+        propsSix={cool.id6}
+        propsSeven={cool.id7}
+        propsEight={cool.id8}
+        propsNine={cool.id9}
+        propsTen={cool.id10}
         width={2000}
-        height={1900}
+        height={1875}
         layout={"responsive"}
         Classes={"object-cover"}
       />
       <Banner
-        propsOne={Shoes.id1}
-        propsTwo={Shoes.id2}
-        propsThree={Shoes.id3}
-        propsFour={Shoes.id4}
-        propsFive={Shoes.id5}
-        propsSix={Shoes.id6}
-        propsSeven={Shoes.id7}
-        propsEight={Shoes.id8}
-        propsNine={Shoes.id9}
-        propsTen={Shoes.id10}
+        propsOne={cool.id11}
+        propsTwo={cool.id15}
+        propsThree={cool.id3}
+        propsFour={cool.id4}
+        propsFive={cool.id5}
+        propsSix={cool.id11}
+        propsSeven={cool.id7}
+        propsEight={cool.id8}
+        propsNine={cool.id9}
+        propsTen={cool.id10}
         width={2000}
-        height={1900}
+        height={2050}
         layout={"responsive"}
         Classes={"object-cover"}
       />
       <Banner
-        propsOne={Painting.id1}
-        propsTwo={Painting.id2}
-        propsThree={Painting.id3}
-        propsFour={Painting.id3}
-        propsFive={Painting.id3}
-        propsSix={Painting.id2}
-        propsSeven={Painting.id1}
-        propsEight={Painting.id3}
-        propsNine={Painting.id2}
-        propsTen={Painting.id1}
+        propsOne={cool.id11}
+        propsTwo={cool.id12}
+        propsThree={cool.id13}
+        propsFour={cool.id14}
+        propsFive={cool.id15}
+        propsSix={cool.id16}
+        propsSeven={cool.id17}
+        propsEight={cool.id18}
+        propsNine={cool.id19}
+        propsTen={cool.id20}
         width={2000}
-        height={1650}
+        height={1950}
         layout={"responsive"}
         Classes={"object-cover"}
       />
     </div>
-    <div className="w-4/12">
+  </>
+);
+
+let HalfEndThree = (
+  <>
+    <div className="w-3/12 flex h/12/12 flex-col gap-5">
       <Banner
-        propsOne={SofaSet.id13}
-        propsTwo={SofaSet.id2}
-        propsThree={SofaSet.id3}
-        propsFour={SofaSet.id4}
-        propsFive={SofaSet.id5}
-        propsSix={SofaSet.id11}
-        propsSeven={SofaSet.id7}
-        propsEight={SofaSet.id8}
-        propsNine={SofaSet.id9}
-        propsTen={SofaSet.id10}
-        width={2200}
-        height={2000}
-        layout={"responsive"}
-        Classes={"object-cover"}
-      />
-      <Banner
-        propsOne={SofaSet.id13}
-        propsTwo={SofaSet.id2}
-        propsThree={SofaSet.id3}
-        propsFour={SofaSet.id4}
-        propsFive={SofaSet.id5}
-        propsSix={SofaSet.id11}
-        propsSeven={SofaSet.id7}
-        propsEight={SofaSet.id8}
-        propsNine={SofaSet.id9}
-        propsTen={SofaSet.id10}
-        width={2200}
-        height={2000}
-        layout={"responsive"}
-        Classes={"object-cover"}
-      />
-      <Banner
-        propsOne={SofaSet.id13}
-        propsTwo={SofaSet.id2}
-        propsThree={SofaSet.id3}
-        propsFour={SofaSet.id4}
-        propsFive={SofaSet.id5}
-        propsSix={SofaSet.id11}
-        propsSeven={SofaSet.id7}
-        propsEight={SofaSet.id8}
-        propsNine={SofaSet.id9}
-        propsTen={SofaSet.id10}
-        width={2200}
-        height={2000}
-        layout={"responsive"}
-        Classes={"object-cover"}
-      />
-    </div>
-    <div className="w-4/12">
-      <Banner
-        propsOne={Shoes.id1}
-        propsTwo={Shoes.id2}
-        propsThree={Shoes.id3}
-        propsFour={Shoes.id4}
-        propsFive={Shoes.id5}
-        propsSix={Shoes.id6}
-        propsSeven={Shoes.id7}
-        propsEight={Shoes.id8}
-        propsNine={Shoes.id9}
-        propsTen={Shoes.id10}
+        propsOne={cool.id15}
+        propsTwo={cool.id17}
+        propsThree={cool.id3}
+        propsFour={cool.id4}
+        propsFive={cool.id5}
+        propsSix={cool.id6}
+        propsSeven={cool.id7}
+        propsEight={cool.id8}
+        propsNine={cool.id9}
+        propsTen={cool.id10}
         width={2000}
-        height={1900}
+        height={2900}
         layout={"responsive"}
         Classes={"object-cover"}
       />
       <Banner
-        propsOne={Painting.id1}
-        propsTwo={Painting.id2}
-        propsThree={Painting.id3}
-        propsFour={Painting.id3}
-        propsFive={Painting.id3}
-        propsSix={Painting.id2}
-        propsSeven={Painting.id1}
-        propsEight={Painting.id3}
-        propsNine={Painting.id2}
-        propsTen={Painting.id1}
+        propsOne={cool.id11}
+        propsTwo={cool.id12}
+        propsThree={cool.id13}
+        propsFour={cool.id14}
+        propsFive={cool.id15}
+        propsSix={cool.id16}
+        propsSeven={cool.id17}
+        propsEight={cool.id18}
+        propsNine={cool.id19}
+        propsTen={cool.id20}
         width={2000}
-        height={1660}
+        height={1500}
         layout={"responsive"}
         Classes={"object-cover"}
       />
       <Banner
-        propsOne={Painting.id1}
-        propsTwo={Painting.id2}
-        propsThree={Painting.id3}
-        propsFour={Painting.id3}
-        propsFive={Painting.id3}
-        propsSix={Painting.id2}
-        propsSeven={Painting.id1}
-        propsEight={Painting.id3}
-        propsNine={Painting.id2}
-        propsTen={Painting.id1}
+        propsOne={cool.id15}
+        propsTwo={cool.id17}
+        propsThree={cool.id3}
+        propsFour={cool.id3}
+        propsFive={cool.id3}
+        propsSix={cool.id17}
+        propsSeven={cool.id15}
+        propsEight={cool.id3}
+        propsNine={cool.id17}
+        propsTen={cool.id15}
         width={2000}
-        height={1900}
+        height={1500}
         layout={"responsive"}
         Classes={"object-cover"}
       />
@@ -416,8 +458,16 @@ const HalfEnd = (
 function Top() {
   return (
     <>
-      <div className="flex">{HalfStart}</div>
-      <div className="flex">{HalfEnd}</div>
+      <div className="myflex m-6 gap-5 ">
+        {firstCol}
+        {secondCol}
+        {thirdCol}
+      </div>
+      <div className="myflex m-6 gap-5 ">
+        {HalfEndOne}
+        {HalfEndTwo}
+        {HalfEndThree}
+      </div>
     </>
   );
 }

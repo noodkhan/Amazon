@@ -16,12 +16,12 @@ function Banner({
   layout,
   width,
   height,
-  Classes
+  Classes,
 }) {
   return (
     <div className="try hover:bye">
       <div className="relative flex-row">
-        <div className="flex-row ">
+        <div>
           <Carousel
             autoPlay
             infiniteLoop

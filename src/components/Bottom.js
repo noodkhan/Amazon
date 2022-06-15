@@ -87,7 +87,7 @@ let Perfume = {
 
 const firstCol = (
   <>
-    <div className="w-4/12">
+    <div className="w-3/12 flex h/12/12 flex-col gap-5">
       <Banner
         propsOne={SofaSet.id13}
         propsTwo={SofaSet.id2}
@@ -142,7 +142,7 @@ const firstCol = (
 
 let secondCol = (
   <>
-    <div className="w-4/12">
+    <div className="w-3/12 flex h/12/12 flex-col gap-5">
       <Banner
         propsOne={Shoes.id1}
         propsTwo={Shoes.id2}
@@ -197,7 +197,7 @@ let secondCol = (
 
 let thirdCol = (
   <>
-    <div className="w-4/12">
+    <div className="w-3/12 flex h/12/12 flex-col gap-5">
       <Banner
         propsOne={Images.id0}
         propsTwo={Images.id0}
@@ -250,20 +250,17 @@ let thirdCol = (
   </>
 );
 
-
-
 const HalfStart = (
   <>
     {firstCol}
     {secondCol}
     {thirdCol}
-
   </>
 );
 
 const HalfEnd = (
   <>
-    <div className="w-4/12">
+    <div className="w-3/12 flex h/12/12 flex-col gap-5">
       <Banner
         propsOne={Shoes.id1}
         propsTwo={Shoes.id2}
@@ -280,90 +277,6 @@ const HalfEnd = (
         layout={"responsive"}
         Classes={"object-cover"}
       />
-         <Banner
-        propsOne={Shoes.id1}
-        propsTwo={Shoes.id2}
-        propsThree={Shoes.id3}
-        propsFour={Shoes.id4}
-        propsFive={Shoes.id5}
-        propsSix={Shoes.id6}
-        propsSeven={Shoes.id7}
-        propsEight={Shoes.id8}
-        propsNine={Shoes.id9}
-        propsTen={Shoes.id10}
-        width={2000}
-        height={1900}
-        layout={"responsive"}
-        Classes={"object-cover"}
-      />
-      <Banner
-        propsOne={Painting.id1}
-        propsTwo={Painting.id2}
-        propsThree={Painting.id3}
-        propsFour={Painting.id3}
-        propsFive={Painting.id3}
-        propsSix={Painting.id2}
-        propsSeven={Painting.id1}
-        propsEight={Painting.id3}
-        propsNine={Painting.id2}
-        propsTen={Painting.id1}
-        width={2000}
-        height={1650}
-        layout={"responsive"}
-        Classes={"object-cover"}
-      />
-    </div>
-    <div className="w-4/12">
-      <Banner
-        propsOne={SofaSet.id13}
-        propsTwo={SofaSet.id2}
-        propsThree={SofaSet.id3}
-        propsFour={SofaSet.id4}
-        propsFive={SofaSet.id5}
-        propsSix={SofaSet.id11}
-        propsSeven={SofaSet.id7}
-        propsEight={SofaSet.id8}
-        propsNine={SofaSet.id9}
-        propsTen={SofaSet.id10}
-        width={2200}
-        height={2000}
-        layout={"responsive"}
-        Classes={"object-cover"}
-      />
-      <Banner
-        propsOne={SofaSet.id13}
-        propsTwo={SofaSet.id2}
-        propsThree={SofaSet.id3}
-        propsFour={SofaSet.id4}
-        propsFive={SofaSet.id5}
-        propsSix={SofaSet.id11}
-        propsSeven={SofaSet.id7}
-        propsEight={SofaSet.id8}
-        propsNine={SofaSet.id9}
-        propsTen={SofaSet.id10}
-        width={2200}
-        height={2000}
-        layout={"responsive"}
-        Classes={"object-cover"}
-      />
-      <Banner
-        propsOne={SofaSet.id13}
-        propsTwo={SofaSet.id2}
-        propsThree={SofaSet.id3}
-        propsFour={SofaSet.id4}
-        propsFive={SofaSet.id5}
-        propsSix={SofaSet.id11}
-        propsSeven={SofaSet.id7}
-        propsEight={SofaSet.id8}
-        propsNine={SofaSet.id9}
-        propsTen={SofaSet.id10}
-        width={2200}
-        height={2000}
-        layout={"responsive"}
-        Classes={"object-cover"}
-      />
-    </div>
-    <div className="w-4/12">
       <Banner
         propsOne={Shoes.id1}
         propsTwo={Shoes.id2}
@@ -396,7 +309,91 @@ const HalfEnd = (
         layout={"responsive"}
         Classes={"object-cover"}
       />
-        <Banner
+    </div>
+    <div className="w-3/12 flex h/12/12 flex-col gap-5">
+      <Banner
+        propsOne={SofaSet.id13}
+        propsTwo={SofaSet.id2}
+        propsThree={SofaSet.id3}
+        propsFour={SofaSet.id4}
+        propsFive={SofaSet.id5}
+        propsSix={SofaSet.id11}
+        propsSeven={SofaSet.id7}
+        propsEight={SofaSet.id8}
+        propsNine={SofaSet.id9}
+        propsTen={SofaSet.id10}
+        width={2200}
+        height={2000}
+        layout={"responsive"}
+        Classes={"object-cover"}
+      />
+      <Banner
+        propsOne={SofaSet.id13}
+        propsTwo={SofaSet.id2}
+        propsThree={SofaSet.id3}
+        propsFour={SofaSet.id4}
+        propsFive={SofaSet.id5}
+        propsSix={SofaSet.id11}
+        propsSeven={SofaSet.id7}
+        propsEight={SofaSet.id8}
+        propsNine={SofaSet.id9}
+        propsTen={SofaSet.id10}
+        width={2200}
+        height={2000}
+        layout={"responsive"}
+        Classes={"object-cover"}
+      />
+      <Banner
+        propsOne={SofaSet.id13}
+        propsTwo={SofaSet.id2}
+        propsThree={SofaSet.id3}
+        propsFour={SofaSet.id4}
+        propsFive={SofaSet.id5}
+        propsSix={SofaSet.id11}
+        propsSeven={SofaSet.id7}
+        propsEight={SofaSet.id8}
+        propsNine={SofaSet.id9}
+        propsTen={SofaSet.id10}
+        width={2200}
+        height={2000}
+        layout={"responsive"}
+        Classes={"object-cover"}
+      />
+    </div>
+    <div className="w-3/12 flex h/12/12 flex-col gap-5">
+      <Banner
+        propsOne={Shoes.id1}
+        propsTwo={Shoes.id2}
+        propsThree={Shoes.id3}
+        propsFour={Shoes.id4}
+        propsFive={Shoes.id5}
+        propsSix={Shoes.id6}
+        propsSeven={Shoes.id7}
+        propsEight={Shoes.id8}
+        propsNine={Shoes.id9}
+        propsTen={Shoes.id10}
+        width={2000}
+        height={1900}
+        layout={"responsive"}
+        Classes={"object-cover"}
+      />
+      <Banner
+        propsOne={Painting.id1}
+        propsTwo={Painting.id2}
+        propsThree={Painting.id3}
+        propsFour={Painting.id3}
+        propsFive={Painting.id3}
+        propsSix={Painting.id2}
+        propsSeven={Painting.id1}
+        propsEight={Painting.id3}
+        propsNine={Painting.id2}
+        propsTen={Painting.id1}
+        width={2000}
+        height={1650}
+        layout={"responsive"}
+        Classes={"object-cover"}
+      />
+      <Banner
         propsOne={Painting.id1}
         propsTwo={Painting.id2}
         propsThree={Painting.id3}
@@ -418,10 +415,10 @@ const HalfEnd = (
 
 function Bottom() {
   return (
-    <>
-      <div className="flex">{HalfEnd}</div>
-      <div className="flex">{HalfStart}</div>
-    </>
+    <div className="my-5">
+      <div className="myflex m-6 gap-5">{HalfEnd}</div>
+      <div className="myflex m-6 gap-5">{HalfStart}</div>
+    </div>
   );
 }
 

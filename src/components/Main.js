@@ -4,13 +4,11 @@ import Top from "./Top";
 function Main() {
   return (
     <>
-      <>
+      <div>
         <Top />
         <Bottom/>
 
-        <div className="object-cover"></div>
-
-      </>
+      </div>
     </>
   );
 }
