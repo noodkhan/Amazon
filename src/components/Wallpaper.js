@@ -2,7 +2,15 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
 
-function Wallpaper({ Classes, propsOne, layout, width, height }) {
+function Wallpaper({
+  Classes,
+  propsOne,
+  propsTwo,
+  propsThree,
+  layout,
+  width,
+  height,
+}) {
   return (
     <div className="try hover:bye ">
       <div className="relative ">
@@ -19,6 +27,22 @@ function Wallpaper({ Classes, propsOne, layout, width, height }) {
             <Image
               className={Classes}
               src={propsOne}
+              alt="Background"
+              layout={layout}
+              width={width}
+              height={height}
+            ></Image>
+            <Image
+              className={Classes}
+              src={propsTwo}
+              alt="Background"
+              layout={layout}
+              width={width}
+              height={height}
+            ></Image>
+            <Image
+              className={Classes}
+              src={propsThree}
               alt="Background"
               layout={layout}
               width={width}

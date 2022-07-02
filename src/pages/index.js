@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Main from "../components/Main";
 import Wallpaper from "../components/Wallpaper";
 import ProductFeed from "../components/ProductFeed";
-import MenuSec from '../components/MenuSec/MenuSec';
+import MenuSec from "../components/MenuSec/MenuSec";
 
 let cool = {
   id1: "https://images.unsplash.com/photo-1646898157740-ffc540df3adb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
@@ -44,6 +44,8 @@ export default function Home({ products }) {
           <div className=" w-6/12">
             <Wallpaper
               propsOne={cool.id10}
+              propsTwo={cool.id9}
+              propsThree={cool.id3}
               width={3025}
               height={2200}
               layout={"responsive"}
@@ -53,6 +55,8 @@ export default function Home({ products }) {
           <div className=" w-6/12 ">
             <Wallpaper
               propsOne={cool.id7}
+              propsTwo={cool.id4}
+              propsThree={cool.id5}
               width={3025}
               height={2200}
               layout={"responsive"}
@@ -62,13 +66,12 @@ export default function Home({ products }) {
           <div className="gradient ">
             {/* <ProductFeed products={products} /> */}
             <Main />
-        <MenuSec/>
+            <MenuSec />
           </div>
         </div>
       </main>
 
-      <footer>
-      </footer>
+      <footer></footer>
 
       {/* Left Side w-6/12 */}
       {/* <main>{MainBottom}</main> */}
@@ -79,7 +82,7 @@ export default function Home({ products }) {
 
 export async function getServerSideProps() {
   const products = await fetch("https://fakestoreapi.com/products").then(
-    (res) => res.json(0)
+    (res) => res.json()
   );
 
   return {
