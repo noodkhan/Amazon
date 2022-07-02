@@ -87,7 +87,7 @@ let Perfume = {
 
 const firstCol = (
   <>
-    <div className="w-3/12 flex h/12/12 flex-col gap-5">
+    <div className="w-3/12 flex h/12/12 flex-col gap-3">
       <Banner
         propsOne={SofaSet.id13}
         propsTwo={SofaSet.id2}
@@ -103,6 +103,9 @@ const firstCol = (
         height={2750}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={Perfume.id1}
@@ -119,6 +122,9 @@ const firstCol = (
         height={1350}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={Apple.id1}
@@ -135,6 +141,9 @@ const firstCol = (
         height={2285}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
     </div>
   </>
@@ -142,7 +151,7 @@ const firstCol = (
 
 let secondCol = (
   <>
-    <div className="w-3/12 flex h/12/12 flex-col gap-5">
+    <div className="w-3/12 flex h/12/12 flex-col gap-3">
       <Banner
         propsOne={Shoes.id1}
         propsTwo={Shoes.id2}
@@ -158,6 +167,9 @@ let secondCol = (
         height={1850}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={Apple.id1}
@@ -174,6 +186,9 @@ let secondCol = (
         height={2500}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={Apple.id1}
@@ -190,6 +205,9 @@ let secondCol = (
         height={2050}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
     </div>
   </>
@@ -197,7 +215,7 @@ let secondCol = (
 
 let thirdCol = (
   <>
-    <div className="w-3/12 flex h/12/12 flex-col gap-5">
+    <div className="w-3/12 flex h/12/12 flex-col gap-3">
       <Banner
         propsOne={Images.id0}
         propsTwo={Images.id0}
@@ -213,6 +231,9 @@ let thirdCol = (
         height={2000}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={Painting.id1}
@@ -229,6 +250,9 @@ let thirdCol = (
         height={2000}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={Painting.id1}
@@ -245,6 +269,9 @@ let thirdCol = (
         height={2400}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
     </div>
   </>
@@ -260,7 +287,7 @@ const HalfStart = (
 
 const HalfEnd = (
   <>
-    <div className="w-3/12 flex h/12/12 flex-col gap-5">
+    <div className="w-3/12 flex h/12/12 flex-col gap-3">
       <Banner
         propsOne={Shoes.id1}
         propsTwo={Shoes.id2}
@@ -276,6 +303,9 @@ const HalfEnd = (
         height={1900}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={Shoes.id1}
@@ -292,6 +322,9 @@ const HalfEnd = (
         height={1900}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={Painting.id1}
@@ -308,9 +341,12 @@ const HalfEnd = (
         height={1650}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
     </div>
-    <div className="w-3/12 flex h/12/12 flex-col gap-5">
+    <div className="w-3/12 flex h/12/12 flex-col gap-3">
       <Banner
         propsOne={SofaSet.id13}
         propsTwo={SofaSet.id2}
@@ -326,6 +362,9 @@ const HalfEnd = (
         height={2000}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={SofaSet.id13}
@@ -342,6 +381,9 @@ const HalfEnd = (
         height={2000}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={SofaSet.id13}
@@ -358,9 +400,12 @@ const HalfEnd = (
         height={2000}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
     </div>
-    <div className="w-3/12 flex h/12/12 flex-col gap-5">
+    <div className="w-3/12 flex h/12/12 flex-col gap-3">
       <Banner
         propsOne={Shoes.id1}
         propsTwo={Shoes.id2}
@@ -376,6 +421,9 @@ const HalfEnd = (
         height={1900}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={Painting.id1}
@@ -392,6 +440,9 @@ const HalfEnd = (
         height={1650}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={Painting.id1}
@@ -408,6 +459,9 @@ const HalfEnd = (
         height={1950}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
     </div>
   </>
@@ -415,9 +469,9 @@ const HalfEnd = (
 
 function Bottom() {
   return (
-    <div className="my-5">
-      <div className="myflex m-6 gap-5">{HalfEnd}</div>
-      <div className="myflex m-6 gap-5">{HalfStart}</div>
+    <div className="">
+      <div className="myflex m-6 gap-3">{HalfStart}</div>
+      <div className="myflex m-6 gap-3">{HalfEnd}</div>
     </div>
   );
 }

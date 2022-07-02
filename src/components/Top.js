@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import Link from "next/link";
 
 let Images = {
   id0: "https://images.unsplash.com/flagged/photo-1552424519-ad13a3c13a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
@@ -85,7 +86,6 @@ let Perfume = {
   id11: "https://images.unsplash.com/photo-1530630458144-014709e10016?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
 };
 
-
 let cool = {
   id1: "https://images.unsplash.com/photo-1646898157740-ffc540df3adb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
   id2: "https://images.unsplash.com/photo-1653374548096-de8603e6db31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1700&q=80",
@@ -111,7 +111,7 @@ let cool = {
 
 const firstCol = (
   <>
-    <div className="w-3/12 flex h/12/12 flex-col gap-5">
+    <div className="relative w-6/12 flex  flex-col gap-3 opacity-80 ">
       <Banner
         propsOne={SofaSet.id1}
         propsTwo={SofaSet.id2}
@@ -124,9 +124,12 @@ const firstCol = (
         propsNine={SofaSet.id9}
         propsTen={SofaSet.id10}
         width={2000}
-        height={2500}
+        height={1250}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={cool.id15}
@@ -143,6 +146,9 @@ const firstCol = (
         height={1000}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello Bruh"}
+        paragraph={"Holy Molly"}
       />
       <Banner
         propsOne={Shoes.id1}
@@ -156,9 +162,12 @@ const firstCol = (
         propsNine={Shoes.id9}
         propsTen={Shoes.id10}
         width={2000}
-        height={2500}
+        height={1000}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
     </div>
   </>
@@ -166,7 +175,7 @@ const firstCol = (
 
 let secondCol = (
   <>
-    <div className="w-3/12 flex h/12/12 flex-col gap-5">
+    <div className="w-3/12 flex h/12/12 flex-col gap-3">
       <Banner
         propsOne={cool.id15}
         propsTwo={cool.id17}
@@ -179,9 +188,12 @@ let secondCol = (
         propsNine={cool.id9}
         propsTen={cool.id10}
         width={2000}
-        height={1750}
+        height={2000}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={cool.id15}
@@ -198,6 +210,9 @@ let secondCol = (
         height={2500}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={cool.id15}
@@ -211,9 +226,12 @@ let secondCol = (
         propsNine={cool.id17}
         propsTen={cool.id15}
         width={2000}
-        height={1750}
+        height={2000}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
     </div>
   </>
@@ -221,7 +239,7 @@ let secondCol = (
 
 let thirdCol = (
   <>
-    <div className="w-3/12 flex h/12/12 flex-col gap-5">
+    <div className="w-3/12 flex h/12/12 flex-col gap-3">
       <Banner
         propsOne={cool.id11}
         propsTwo={cool.id12}
@@ -234,9 +252,12 @@ let thirdCol = (
         propsNine={cool.id19}
         propsTen={cool.id20}
         width={2000}
-        height={1400}
+        height={3300}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={cool.id15}
@@ -250,41 +271,12 @@ let thirdCol = (
         propsNine={cool.id17}
         propsTen={cool.id15}
         width={2000}
-        height={1500}
+        height={3300}
         layout={"responsive"}
         Classes={"object-cover"}
-      />
-      <Banner
-        propsOne={cool.id11}
-        propsTwo={cool.id12}
-        propsThree={cool.id13}
-        propsFour={cool.id14}
-        propsFive={cool.id15}
-        propsSix={cool.id16}
-        propsSeven={cool.id17}
-        propsEight={cool.id18}
-        propsNine={cool.id19}
-        propsTen={cool.id20}
-        width={2000}
-        height={1500}
-        layout={"responsive"}
-        Classes={"object-cover"}
-      />
-      <Banner
-        propsOne={cool.id15}
-        propsTwo={cool.id17}
-        propsThree={cool.id3}
-        propsFour={cool.id3}
-        propsFive={cool.id3}
-        propsSix={cool.id17}
-        propsSeven={cool.id15}
-        propsEight={cool.id3}
-        propsNine={cool.id17}
-        propsTen={cool.id15}
-        width={2000}
-        height={1500}
-        layout={"responsive"}
-        Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
     </div>
   </>
@@ -292,7 +284,7 @@ let thirdCol = (
 
 let HalfEndOne = (
   <>
-    <div className="w-3/12 flex h/12/12 flex-col gap-5">
+    <div className="w-3/12 flex h/12/12 flex-col gap-3">
       <Banner
         propsOne={cool.id11}
         propsTwo={cool.id12}
@@ -305,9 +297,12 @@ let HalfEndOne = (
         propsNine={cool.id19}
         propsTen={cool.id20}
         width={2000}
-        height={1500}
+        height={3500}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={cool.id15}
@@ -321,9 +316,12 @@ let HalfEndOne = (
         propsNine={cool.id9}
         propsTen={cool.id10}
         width={2000}
-        height={2900}
+        height={2000}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={cool.id11}
@@ -337,9 +335,12 @@ let HalfEndOne = (
         propsNine={cool.id19}
         propsTen={cool.id20}
         width={2000}
-        height={1500}
+        height={3500}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
     </div>
   </>
@@ -347,7 +348,7 @@ let HalfEndOne = (
 
 let HalfEndTwo = (
   <>
-    <div className="w-3/12 flex h/12/12 flex-col gap-5">
+    <div className="w-3/12 flex h/12/12 flex-col gap-3">
       <Banner
         propsOne={cool.id11}
         propsTwo={cool.id15}
@@ -360,9 +361,12 @@ let HalfEndTwo = (
         propsNine={cool.id9}
         propsTen={cool.id10}
         width={2000}
-        height={1875}
+        height={2000}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={cool.id11}
@@ -376,9 +380,12 @@ let HalfEndTwo = (
         propsNine={cool.id9}
         propsTen={cool.id10}
         width={2000}
-        height={2050}
+        height={2000}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={cool.id11}
@@ -392,9 +399,31 @@ let HalfEndTwo = (
         propsNine={cool.id19}
         propsTen={cool.id20}
         width={2000}
-        height={1950}
+        height={2400}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
+      />
+      <Banner
+        propsOne={cool.id11}
+        propsTwo={cool.id12}
+        propsThree={cool.id13}
+        propsFour={cool.id14}
+        propsFive={cool.id15}
+        propsSix={cool.id16}
+        propsSeven={cool.id17}
+        propsEight={cool.id18}
+        propsNine={cool.id19}
+        propsTen={cool.id20}
+        width={2000}
+        height={2500}
+        layout={"responsive"}
+        Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
     </div>
   </>
@@ -402,7 +431,7 @@ let HalfEndTwo = (
 
 let HalfEndThree = (
   <>
-    <div className="w-3/12 flex h/12/12 flex-col gap-5">
+    <div className="w-6/12 flex h/12/12 flex-col gap-3">
       <Banner
         propsOne={cool.id15}
         propsTwo={cool.id17}
@@ -415,9 +444,12 @@ let HalfEndThree = (
         propsNine={cool.id9}
         propsTen={cool.id10}
         width={2000}
-        height={2900}
+        height={1500}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={cool.id11}
@@ -434,6 +466,9 @@ let HalfEndThree = (
         height={1500}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
       <Banner
         propsOne={cool.id15}
@@ -450,6 +485,9 @@ let HalfEndThree = (
         height={1500}
         layout={"responsive"}
         Classes={"object-cover"}
+        link={"/"}
+        title={"Hello World"}
+        paragraph={"Container Box home boi"}
       />
     </div>
   </>
@@ -458,12 +496,12 @@ let HalfEndThree = (
 function Top() {
   return (
     <>
-      <div className="myflex m-6 gap-5 ">
+      <div className="myflex m-5 gap-3 ">
         {firstCol}
-        {secondCol}
         {thirdCol}
+        {secondCol}
       </div>
-      <div className="myflex m-6 gap-5 ">
+      <div className="myflex m-6 gap-3 ">
         {HalfEndOne}
         {HalfEndTwo}
         {HalfEndThree}

@@ -5,8 +5,8 @@ import Image from "next/image";
 function Wallpaper({ Classes, propsOne, layout, width, height }) {
   return (
     <div className="try hover:bye ">
-      <div className="relative  ">
-        <div>
+      <div className="relative ">
+        <div className="relative w-full h-32 bg-gradient-to-t">
           <Carousel
             autoPlay
             infiniteLoop

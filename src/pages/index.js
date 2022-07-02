@@ -2,6 +2,8 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Main from "../components/Main";
 import Wallpaper from "../components/Wallpaper";
+import ProductFeed from "../components/ProductFeed";
+import MenuSec from '../components/MenuSec/MenuSec';
 
 let cool = {
   id1: "https://images.unsplash.com/photo-1646898157740-ffc540df3adb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
@@ -26,7 +28,7 @@ let cool = {
   id20: "https://images.unsplash.com/photo-1638803040283-7a5ffd48dad5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
 };
 
-export default function Home() {
+export default function Home({ products }) {
   return (
     <>
       <Head>
@@ -34,93 +36,55 @@ export default function Home() {
       </Head>
 
       {/* { HEADER COMPONENTS  }  */}
-      <Header />
 
+      <Header />
       {/* Main */}
       <main>
         <div className="myflex ">
-          <div className=" w-6/12 ">
+          <div className=" w-6/12">
             <Wallpaper
               propsOne={cool.id10}
-              width={2025}
-              height={1500}
+              width={3025}
+              height={2200}
               layout={"responsive"}
-              Classes={"object-cover "}
+              Classes={"object-cover"}
             />
           </div>
           <div className=" w-6/12 ">
             <Wallpaper
               propsOne={cool.id7}
-              width={2025}
-              height={1500}
+              width={3025}
+              height={2200}
               layout={"responsive"}
-              Classes={"object-cover "}
+              Classes={"object-cover"}
             />
           </div>
+          <div className="gradient ">
+            {/* <ProductFeed products={products} /> */}
+            <Main />
+        <MenuSec/>
+          </div>
         </div>
-
-        <Main />
       </main>
 
+      <footer>
+      </footer>
+
+      {/* Left Side w-6/12 */}
       {/* <main>{MainBottom}</main> */}
       {/* <Random /> */}
     </>
   );
 }
 
-/*     <div className="w-12/12 flex ">
-          <div className=" w-8/12 try flex-row ">
-            <Banner/>
-          </div>
-          <div className=" w-6/12 try flex-row">
-            <Banner />
-          </div>
-          <div className=" w-5/12 try flex-row">
-            <Banner />
-          </div>
-          <div className=" w-6/12 try flex-row">
-            <Banner />
-          </div>
-        </div>
-        <div className="w-12/12 flex">
-          <div className=" w-3/12 try flex-row">
-            <Banner />
-          </div>
-          <div className=" w-3/12 try flex-row">
-            <Banner />
-          </div>
-          <div className=" w-3/12 try flex-row">
-            <Banner />
-          </div>
-          <div className=" w-3/12 try flex-row">
-            <Banner />
-          </div>
-        </div>
-        <div className="w-12/12 flex">
-          <div className=" w-3/12 try flex-row">
-            <Banner />
-          </div>
-          <div className=" w-3/12 try flex-row">
-            <Banner />
-          </div>
-          <div className=" w-3/12 try flex-row">
-            <Banner />
-          </div>
-          <div className=" w-3/12 try flex-row">
-            <Banner />
-          </div>
-        </div>
-        <div className="w-12/12 flex">
-          <div className=" w-3/12 try flex-row">
-            <Banner />
-          </div>
-          <div className=" w-3/12 try flex-row">
-            <Banner />
-          </div>
-          <div className=" w-3/12 try flex-row">
-            <Banner />
-          </div>
-          <div className=" w-3/12 try flex-row">
-            <Banner />
-          </div>
-        </div> */
+export async function getServerSideProps() {
+  const products = await fetch("https://fakestoreapi.com/products").then(
+    (res) => res.json(0)
+  );
+
+  return {
+    props: {
+      products,
+    },
+  };
+}

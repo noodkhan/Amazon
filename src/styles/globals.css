@@ -32,12 +32,16 @@ font-family: 'Work Sans', sans-serif;
   box-sizing: border-box;
 }
 
+body {
+  background: var(--dark_Amazon);
+}
+
 @layer components {
+
   .myflex {
     display: flex;
     align-items: center;
     justify-content: center;
-
   }
   .align {
     align-items: center;
@@ -49,8 +53,8 @@ font-family: 'Work Sans', sans-serif;
     text-align: center;
     transition: all 2000ms ease-in-out;
     cursor: pointer;
-    font-size: 0.75rem/* 12px */;
-    line-height: 1rem/* 16px */;
+    font-size: 0.75rem /* 12px */;
+    line-height: 1rem /* 16px */;
   }
   .bye,
   .bye {
@@ -60,11 +64,24 @@ font-family: 'Work Sans', sans-serif;
     color: goldenrod;
     box-sizing: content-box;
   }
-  .w-custom{
-    width:95%;
+  .w-custom {
+    width: 100%;
   }
-  .gap{
+  .gap {
     gap: 3rem;
   }
+
+  .textcustom{
+    font-size: 7px;
+    text-transform: lowercase;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    letter-spacing: 8px;
+
+  }
+ 
 
 }

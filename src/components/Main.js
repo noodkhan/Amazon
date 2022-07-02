@@ -4,10 +4,9 @@ import Top from "./Top";
 function Main() {
   return (
     <>
-      <div>
+      <div className="background-blue">
         <Top />
-        <Bottom/>
-
+        {/* <Bottom/> */}
       </div>
     </>
   );

@@ -9,23 +9,20 @@ function Header() {
   return (
     <header>
       {/* Menu Section */}
-      <menu className="bg-amazon_blue-light flex items-center flex-grow items-center ">
+      <menu className="bg-amazon_blue-light flex  flex-grow items-center ">
         {/* Left Section */}
-        <div className=" flex items-center flex-grow sm:flex-grow-0 ">
+        <div className=" flex items-center  ">
           <Image
             className="try"
             src="/amazon-logo.png"
-            width={200}
+            width={180}
             height={70}
             objectFit="cover"
           />
         </div>
         {/* Search Bar */}
-        <div className="bg-white hover:bg-yellow-500 sm:flex items-center h-10 rounded-xl flex-grow try">
-          <input
-            type="text"
-            className="p-2 h-full rounded-l-xl w-custom "
-          />
+        <div className="bg-white hover:bg-yellow-500 flex items-center h-10 rounded-xl flex-grow try">
+          <input type="text" className="p-2 h-full rounded-l-xl w-custom " />
           <SearchIcon className="relative  right-0 h-10 w-10 p-2 try " />
         </div>
 
@@ -56,11 +53,11 @@ function Header() {
 
       {/* Bottom Sections */}
       <div>
-        <div className="flex items-center sm:flex-grow-0 bg-amazon_blue-light text-white  space-x-7 text-sm">
+        <div className="flex items-center flex-grow-0 flex-wrap bg-amazon_blue-light text-white  space-x-7 text-sm  ">
           <p className="try hover:bye ">
             <MenuIcon className="h-8 m-1 font-extrabold " />
           </p>
-          <p className="try hover:bye text-xs ">Prime Video</p>
+          <p className="try hover:bye">Prime Video</p>
           <p className="try hover:bye ">Amazon Business</p>
           <p className="try hover:bye ">Today's Deals</p>
           <p className="try hover:bye ">Electronics</p>

@@ -1,6 +1,7 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from "next/image";
+import Link from "next/link";
 
 function Banner({
   propsOne,
@@ -17,6 +18,9 @@ function Banner({
   width,
   height,
   Classes,
+  link,
+  title,
+  paragraph
 }) {
   return (
     <div className="try hover:bye">
@@ -132,6 +136,14 @@ function Banner({
               ></Image>
             </div>
           </Carousel>
+          <div className="containerbox">
+            <Link href={link}>
+              <div>
+                <h2>{title}</h2>
+                <p className="textcustom">{paragraph}</p>
+              </div>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
