@@ -34,9 +34,7 @@ export default function Home({ products }) {
       <Head>
         <title>Amazon 2.0</title>
       </Head>
-
       {/* { HEADER COMPONENTS  }  */}
-
       <Header />
       {/* Main */}
       <main>
@@ -70,9 +68,7 @@ export default function Home({ products }) {
           </div>
         </div>
       </main>
-
       <footer></footer>
-
       {/* Left Side w-6/12 */}
       {/* <main>{MainBottom}</main> */}
       {/* <Random /> */}

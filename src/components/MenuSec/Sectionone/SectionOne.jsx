@@ -1,4 +1,3 @@
-import Link from "next/link";
 import One from "./One";
 
 function SectionOne() {

@@ -24,12 +24,12 @@ function SectionTwo() {
           <a>Amazon</a>
         </Link>
       </div>
-      <ul >
-          <Two link={"/blank"} linkname={"bruh"} />
-          <Two link={"/blank"} linkname={"bruh"} />
-          <Two link={"/blank"} linkname={"bruh"} />
-          <Two link={"/blank"} linkname={"bruh"} />
-        </ul>
+      <ul>
+        <Two link={"/blank"} linkname={"bruh"} />
+        <Two link={"/blank"} linkname={"bruh"} />
+        <Two link={"/blank"} linkname={"bruh"} />
+        <Two link={"/blank"} linkname={"bruh"} />
+      </ul>
     </div>
   );
 }
