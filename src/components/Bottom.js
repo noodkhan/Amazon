@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import Image from "next/image";
 
 let Images = {
   id0: "https://images.unsplash.com/flagged/photo-1552424519-ad13a3c13a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
@@ -277,201 +278,250 @@ let thirdCol = (
   </>
 );
 
+let EndFirst = (
+  <div className="w-3/12 flex h/12/12 flex-col gap-3">
+    <Banner
+      propsOne={Shoes.id1}
+      propsTwo={Shoes.id2}
+      propsThree={Shoes.id3}
+      propsFour={Shoes.id4}
+      propsFive={Shoes.id5}
+      propsSix={Shoes.id6}
+      propsSeven={Shoes.id7}
+      propsEight={Shoes.id8}
+      propsNine={Shoes.id9}
+      propsTen={Shoes.id10}
+      width={2000}
+      height={1900}
+      layout={"responsive"}
+      Classes={"object-cover"}
+      link={"/"}
+      title={"Hello World"}
+      paragraph={"Container Box home boi"}
+    />
+    <Banner
+      propsOne={Shoes.id1}
+      propsTwo={Shoes.id2}
+      propsThree={Shoes.id3}
+      propsFour={Shoes.id4}
+      propsFive={Shoes.id5}
+      propsSix={Shoes.id6}
+      propsSeven={Shoes.id7}
+      propsEight={Shoes.id8}
+      propsNine={Shoes.id9}
+      propsTen={Shoes.id10}
+      width={2000}
+      height={1900}
+      layout={"responsive"}
+      Classes={"object-cover"}
+      link={"/"}
+      title={"Hello World"}
+      paragraph={"Container Box home boi"}
+    />
+    <Banner
+      propsOne={Painting.id1}
+      propsTwo={Painting.id2}
+      propsThree={Painting.id3}
+      propsFour={Painting.id3}
+      propsFive={Painting.id3}
+      propsSix={Painting.id2}
+      propsSeven={Painting.id1}
+      propsEight={Painting.id3}
+      propsNine={Painting.id2}
+      propsTen={Painting.id1}
+      width={2000}
+      height={1650}
+      layout={"responsive"}
+      Classes={"object-cover"}
+      link={"/"}
+      title={"Hello World"}
+      paragraph={"Container Box home boi"}
+    />
+  </div>
+);
+
+let EndSecond = (
+  <div className="w-3/12 flex h/12/12 flex-col gap-3">
+    <Banner
+      propsOne={SofaSet.id13}
+      propsTwo={SofaSet.id2}
+      propsThree={SofaSet.id3}
+      propsFour={SofaSet.id4}
+      propsFive={SofaSet.id5}
+      propsSix={SofaSet.id11}
+      propsSeven={SofaSet.id7}
+      propsEight={SofaSet.id8}
+      propsNine={SofaSet.id9}
+      propsTen={SofaSet.id10}
+      width={2200}
+      height={2000}
+      layout={"responsive"}
+      Classes={"object-cover"}
+      link={"/"}
+      title={"Hello World"}
+      paragraph={"Container Box home boi"}
+    />
+    <Banner
+      propsOne={SofaSet.id13}
+      propsTwo={SofaSet.id2}
+      propsThree={SofaSet.id3}
+      propsFour={SofaSet.id4}
+      propsFive={SofaSet.id5}
+      propsSix={SofaSet.id11}
+      propsSeven={SofaSet.id7}
+      propsEight={SofaSet.id8}
+      propsNine={SofaSet.id9}
+      propsTen={SofaSet.id10}
+      width={2200}
+      height={2000}
+      layout={"responsive"}
+      Classes={"object-cover"}
+      link={"/"}
+      title={"Hello World"}
+      paragraph={"Container Box home boi"}
+    />
+    <Banner
+      propsOne={SofaSet.id13}
+      propsTwo={SofaSet.id2}
+      propsThree={SofaSet.id3}
+      propsFour={SofaSet.id4}
+      propsFive={SofaSet.id5}
+      propsSix={SofaSet.id11}
+      propsSeven={SofaSet.id7}
+      propsEight={SofaSet.id8}
+      propsNine={SofaSet.id9}
+      propsTen={SofaSet.id10}
+      width={2200}
+      height={2000}
+      layout={"responsive"}
+      Classes={"object-cover"}
+      link={"/"}
+      title={"Hello World"}
+      paragraph={"Container Box home boi"}
+    />
+  </div>
+);
+
+let EndThird = (
+  <div className="w-3/12 flex h/12/12 flex-col gap-3">
+    <Banner
+      propsOne={Shoes.id1}
+      propsTwo={Shoes.id2}
+      propsThree={Shoes.id3}
+      propsFour={Shoes.id4}
+      propsFive={Shoes.id5}
+      propsSix={Shoes.id6}
+      propsSeven={Shoes.id7}
+      propsEight={Shoes.id8}
+      propsNine={Shoes.id9}
+      propsTen={Shoes.id10}
+      width={2000}
+      height={1900}
+      layout={"responsive"}
+      Classes={"object-cover"}
+      link={"/"}
+      title={"Hello World"}
+      paragraph={"Container Box home boi"}
+    />
+    <Banner
+      propsOne={Painting.id1}
+      propsTwo={Painting.id2}
+      propsThree={Painting.id3}
+      propsFour={Painting.id3}
+      propsFive={Painting.id3}
+      propsSix={Painting.id2}
+      propsSeven={Painting.id1}
+      propsEight={Painting.id3}
+      propsNine={Painting.id2}
+      propsTen={Painting.id1}
+      width={2000}
+      height={1650}
+      layout={"responsive"}
+      Classes={"object-cover"}
+      link={"/"}
+      title={"Hello World"}
+      paragraph={"Container Box home boi"}
+    />
+    <Banner
+      propsOne={Painting.id1}
+      propsTwo={Painting.id2}
+      propsThree={Painting.id3}
+      propsFour={Painting.id3}
+      propsFive={Painting.id3}
+      propsSix={Painting.id2}
+      propsSeven={Painting.id1}
+      propsEight={Painting.id3}
+      propsNine={Painting.id2}
+      propsTen={Painting.id1}
+      width={2000}
+      height={1950}
+      layout={"responsive"}
+      Classes={"object-cover"}
+      link={"/"}
+      title={"Hello World"}
+      paragraph={"Container Box home boi"}
+    />
+  </div>
+);
+
+let URL =
+  "https://mir-s3-cdn-cf.behance.net/project_modules/disp/d93a7617025011.562b49510d931.jpg";
+
+let extraCol = (
+  <div className="bg-white w-2/12  flex-col gap-3">
+    {/* Left Filter */}
+    <Image
+      src={URL}
+      alt="Adobe"
+      layout="responsive"
+      width={200}
+      height={300}
+      objectFit="contain"
+    />
+    <Image
+      src={URL}
+      alt="Adobe"
+      layout="responsive"
+      width={200}
+      height={300}
+      objectFit="contain"
+    />
+    <Image
+      src={URL}
+      alt="Adobe"
+      layout="responsive"
+      width={200}
+      height={370}
+      objectFit="contain"
+    />
+  </div>
+);
+
 const HalfStart = (
   <>
+    {extraCol}
     {firstCol}
     {secondCol}
     {thirdCol}
+    {extraCol}
   </>
 );
 
 const HalfEnd = (
   <>
-    <div className="w-3/12 flex h/12/12 flex-col gap-3">
-      <Banner
-        propsOne={Shoes.id1}
-        propsTwo={Shoes.id2}
-        propsThree={Shoes.id3}
-        propsFour={Shoes.id4}
-        propsFive={Shoes.id5}
-        propsSix={Shoes.id6}
-        propsSeven={Shoes.id7}
-        propsEight={Shoes.id8}
-        propsNine={Shoes.id9}
-        propsTen={Shoes.id10}
-        width={2000}
-        height={1900}
-        layout={"responsive"}
-        Classes={"object-cover"}
-        link={"/"}
-        title={"Hello World"}
-        paragraph={"Container Box home boi"}
-      />
-      <Banner
-        propsOne={Shoes.id1}
-        propsTwo={Shoes.id2}
-        propsThree={Shoes.id3}
-        propsFour={Shoes.id4}
-        propsFive={Shoes.id5}
-        propsSix={Shoes.id6}
-        propsSeven={Shoes.id7}
-        propsEight={Shoes.id8}
-        propsNine={Shoes.id9}
-        propsTen={Shoes.id10}
-        width={2000}
-        height={1900}
-        layout={"responsive"}
-        Classes={"object-cover"}
-        link={"/"}
-        title={"Hello World"}
-        paragraph={"Container Box home boi"}
-      />
-      <Banner
-        propsOne={Painting.id1}
-        propsTwo={Painting.id2}
-        propsThree={Painting.id3}
-        propsFour={Painting.id3}
-        propsFive={Painting.id3}
-        propsSix={Painting.id2}
-        propsSeven={Painting.id1}
-        propsEight={Painting.id3}
-        propsNine={Painting.id2}
-        propsTen={Painting.id1}
-        width={2000}
-        height={1650}
-        layout={"responsive"}
-        Classes={"object-cover"}
-        link={"/"}
-        title={"Hello World"}
-        paragraph={"Container Box home boi"}
-      />
-    </div>
-    <div className="w-3/12 flex h/12/12 flex-col gap-3">
-      <Banner
-        propsOne={SofaSet.id13}
-        propsTwo={SofaSet.id2}
-        propsThree={SofaSet.id3}
-        propsFour={SofaSet.id4}
-        propsFive={SofaSet.id5}
-        propsSix={SofaSet.id11}
-        propsSeven={SofaSet.id7}
-        propsEight={SofaSet.id8}
-        propsNine={SofaSet.id9}
-        propsTen={SofaSet.id10}
-        width={2200}
-        height={2000}
-        layout={"responsive"}
-        Classes={"object-cover"}
-        link={"/"}
-        title={"Hello World"}
-        paragraph={"Container Box home boi"}
-      />
-      <Banner
-        propsOne={SofaSet.id13}
-        propsTwo={SofaSet.id2}
-        propsThree={SofaSet.id3}
-        propsFour={SofaSet.id4}
-        propsFive={SofaSet.id5}
-        propsSix={SofaSet.id11}
-        propsSeven={SofaSet.id7}
-        propsEight={SofaSet.id8}
-        propsNine={SofaSet.id9}
-        propsTen={SofaSet.id10}
-        width={2200}
-        height={2000}
-        layout={"responsive"}
-        Classes={"object-cover"}
-        link={"/"}
-        title={"Hello World"}
-        paragraph={"Container Box home boi"}
-      />
-      <Banner
-        propsOne={SofaSet.id13}
-        propsTwo={SofaSet.id2}
-        propsThree={SofaSet.id3}
-        propsFour={SofaSet.id4}
-        propsFive={SofaSet.id5}
-        propsSix={SofaSet.id11}
-        propsSeven={SofaSet.id7}
-        propsEight={SofaSet.id8}
-        propsNine={SofaSet.id9}
-        propsTen={SofaSet.id10}
-        width={2200}
-        height={2000}
-        layout={"responsive"}
-        Classes={"object-cover"}
-        link={"/"}
-        title={"Hello World"}
-        paragraph={"Container Box home boi"}
-      />
-    </div>
-    <div className="w-3/12 flex h/12/12 flex-col gap-3">
-      <Banner
-        propsOne={Shoes.id1}
-        propsTwo={Shoes.id2}
-        propsThree={Shoes.id3}
-        propsFour={Shoes.id4}
-        propsFive={Shoes.id5}
-        propsSix={Shoes.id6}
-        propsSeven={Shoes.id7}
-        propsEight={Shoes.id8}
-        propsNine={Shoes.id9}
-        propsTen={Shoes.id10}
-        width={2000}
-        height={1900}
-        layout={"responsive"}
-        Classes={"object-cover"}
-        link={"/"}
-        title={"Hello World"}
-        paragraph={"Container Box home boi"}
-      />
-      <Banner
-        propsOne={Painting.id1}
-        propsTwo={Painting.id2}
-        propsThree={Painting.id3}
-        propsFour={Painting.id3}
-        propsFive={Painting.id3}
-        propsSix={Painting.id2}
-        propsSeven={Painting.id1}
-        propsEight={Painting.id3}
-        propsNine={Painting.id2}
-        propsTen={Painting.id1}
-        width={2000}
-        height={1650}
-        layout={"responsive"}
-        Classes={"object-cover"}
-        link={"/"}
-        title={"Hello World"}
-        paragraph={"Container Box home boi"}
-      />
-      <Banner
-        propsOne={Painting.id1}
-        propsTwo={Painting.id2}
-        propsThree={Painting.id3}
-        propsFour={Painting.id3}
-        propsFive={Painting.id3}
-        propsSix={Painting.id2}
-        propsSeven={Painting.id1}
-        propsEight={Painting.id3}
-        propsNine={Painting.id2}
-        propsTen={Painting.id1}
-        width={2000}
-        height={1950}
-        layout={"responsive"}
-        Classes={"object-cover"}
-        link={"/"}
-        title={"Hello World"}
-        paragraph={"Container Box home boi"}
-      />
-    </div>
+    {extraCol}
+    {EndFirst}
+    {EndSecond}
+    {EndThird}
+    {extraCol}
   </>
 );
 
 function Bottom() {
   return (
-    <div className="">
-      <div className="myflex  gap-3">{HalfStart}</div>
-      <div className="myflex  gap-3">{HalfEnd}</div>
+    <div>
+      <div className="myflex gap-3">{HalfStart}</div>
+      <div className="myflex gap-3">{HalfEnd}</div>
     </div>
   );
 }

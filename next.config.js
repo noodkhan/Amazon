@@ -1,5 +1,13 @@
 module.exports = {
   images: {
-    domains: ["links.fakestoreapi.com"  , "www.beautyhunter.co.th" , "images.unsplash.com" , "unsplash.com" , "fakestoreapi.com" , "www.pngplay.com"],
+    domains: [
+      "mir-s3-cdn-cf.behance.net",
+      "links.fakestoreapi.com",
+      "www.beautyhunter.co.th",
+      "images.unsplash.com",
+      "unsplash.com",
+      "fakestoreapi.com",
+      "www.pngplay.com",
+    ],
   },
 };

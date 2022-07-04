@@ -55,7 +55,6 @@ main {
   padding: 30px;
 }
 
-
 .card {
   display: flex;
   flex-wrap: wrap;
@@ -83,7 +82,6 @@ main {
   cursor: pointer;
 }
 
-
 .boi {
   border-radius: 10px;
   width: 80%;
@@ -109,35 +107,44 @@ main {
   color: bisque;
 }
 
+.deliver {
+  width: 130px;
+  margin-right: 1rem;
+  text-align: center;
+  transition: all 1s ease-in-out;
+}
 
-.Wedone{
-  background: black;
+
+.location {
+  margin-right: 1rem;
+  margin-top: auto;
+  top: 0;
+  bottom: 0;
+  margin-bottom: auto;
+  height: 2rem;
 }
 
 .containerBox h2 {
   font-size: x-large;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 1000px) {
   .mainCard {
     margin-top: 4rem;
   }
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width: 1000px) {
   .mainCard {
     margin-top: 24rem;
-  }  
+  }
 }
-
 
 @media screen and (min-width: 1500px) {
   .mainCard {
     margin-top: 36rem;
   }
 }
-
-
 
 /*
 font-family: 'Concert One', cursive;

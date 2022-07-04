@@ -4,6 +4,7 @@ import {
   MenuIcon,
   SearchIcon,
   ShoppingCartIcon,
+  LocationMarkerIcon,
 } from "@heroicons/react/outline";
 
 function Header() {
@@ -25,6 +26,19 @@ function Header() {
             </a>
           </Link>
         </div>
+
+        {/* Deliver In Thai */}
+        <div className="relative deliver">
+          <Link href="/Item ">
+            <a className="try hover:bye text-white text-center ">
+              Deliver
+              <br></br>
+              <span> Thailand </span>
+              <LocationMarkerIcon className="location absolute top-0 " />
+            </a>
+          </Link>
+        </div>
+
         {/* Search Bar */}
         <div className="bg-white hover:bg-yellow-500 flex items-center h-10 rounded-xl flex-grow try">
           <input type="text" className="p-2 h-full rounded-l-xl w-custom " />
