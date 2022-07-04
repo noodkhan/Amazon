@@ -127,7 +127,7 @@ const firstCol = (
         height={1250}
         layout={"responsive"}
         Classes={"object-cover"}
-        link={"/"}
+        link={"/Page"}
         title={"Hello World"}
         paragraph={"Container Box home boi"}
       />

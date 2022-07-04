@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import {
   MenuIcon,
   SearchIcon,
@@ -11,14 +12,18 @@ function Header() {
       {/* Menu Section */}
       <menu className="bg-amazon_blue-light flex  flex-grow items-center ">
         {/* Left Section */}
-        <div className=" flex items-center  ">
-          <Image
-            className="try"
-            src="/amazon-logo.png"
-            width={180}
-            height={70}
-            objectFit="cover"
-          />
+        <div className=" flex items-center bg-amazon_blue-light">
+          <Link href="/" alt="logo">
+            <a>
+              <Image
+                className="try"
+                src="/amazon-logo.png"
+                width={180}
+                height={70}
+                objectFit="cover"
+              />
+            </a>
+          </Link>
         </div>
         {/* Search Bar */}
         <div className="bg-white hover:bg-yellow-500 flex items-center h-10 rounded-xl flex-grow try">
@@ -57,15 +62,33 @@ function Header() {
           <p className="try hover:bye ">
             <MenuIcon className="h-8 m-1 font-extrabold " />
           </p>
-          <p className="try hover:bye">Prime Video</p>
-          <p className="try hover:bye ">Amazon Business</p>
-          <p className="try hover:bye ">Today's Deals</p>
-          <p className="try hover:bye ">Electronics</p>
-          <p className="try hover:bye ">Food & Grocery</p>
-          <p className="try hover:bye ">Prime</p>
-          <p className="try hover:bye">Buy Again</p>
-          <p className="try hover:bye">Shopper Toolkit</p>
-          <p className="try hover:bye">Health & Personal Care</p>
+          <Link href="/">
+            <a className="try hover:bye">Amazon Video</a>
+          </Link>
+          <Link href="/Page">
+            <a className="try hover:bye ">Amazon Business </a>
+          </Link>
+          <Link href="/">
+            <a className="try hover:bye ">Today's Deals</a>
+          </Link>
+          <Link href="/">
+            <a className="try hover:bye ">Electronics</a>
+          </Link>
+          <Link href="/">
+            <a className="try hover:bye ">Food & Grocery</a>
+          </Link>
+          <Link href="/">
+            <a className="try hover:bye ">Prime</a>
+          </Link>
+          <Link href="/">
+            <a className="try hover:bye">Buy Again</a>
+          </Link>
+          <Link href="/">
+            <a className="try hover:bye">Shopper Toolkit</a>
+          </Link>
+          <Link href="/">
+            <a className="try hover:bye">Health & Personal Care</a>
+          </Link>
         </div>
       </div>
     </header>

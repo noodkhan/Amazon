@@ -470,8 +470,8 @@ const HalfEnd = (
 function Bottom() {
   return (
     <div className="">
-      <div className="myflex m-6 gap-3">{HalfStart}</div>
-      <div className="myflex m-6 gap-3">{HalfEnd}</div>
+      <div className="myflex  gap-3">{HalfStart}</div>
+      <div className="myflex  gap-3">{HalfEnd}</div>
     </div>
   );
 }

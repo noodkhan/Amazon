@@ -6,10 +6,10 @@ function SectionTwo() {
   return (
     <div className="sectionTwo">
       <ul>
-        <Two link={"/blank"} linkname={"bruh"} />
-        <Two link={"/blank"} linkname={"bruh"} />
-        <Two link={"/blank"} linkname={"bruh"} />
-        <Two link={"/blank"} linkname={"bruh"} />
+        <Two link={"/Page"} linkname={"bruh"} />
+        <Two link={"/Page"} linkname={"bruh"} />
+        <Two link={"/Page"} linkname={"bruh"} />
+        <Two link={"/Page"} linkname={"bruh"} />
       </ul>
       <div className="martinRoyal">
         <Image
@@ -20,15 +20,15 @@ function SectionTwo() {
           width={250}
           height={250}
         />
-        <Link href="/blank">
+        <Link href="/Page">
           <a>Amazon</a>
         </Link>
       </div>
       <ul>
-        <Two link={"/blank"} linkname={"bruh"} />
-        <Two link={"/blank"} linkname={"bruh"} />
-        <Two link={"/blank"} linkname={"bruh"} />
-        <Two link={"/blank"} linkname={"bruh"} />
+        <Two link={"/Page"} linkname={"bruh"} />
+        <Two link={"/Page"} linkname={"bruh"} />
+        <Two link={"/Page"} linkname={"bruh"} />
+        <Two link={"/Page"} linkname={"bruh"} />
       </ul>
     </div>
   );

@@ -8,7 +8,7 @@ function SectionOne() {
         heading={
           "find a package that suits you with competitive offers from Amazon Best deal you could have bro"
         }
-        link={"AmazonOne"}
+        link={"/Page"}
         linkname={"Amazon Prime"}
       />
       <One
@@ -16,7 +16,7 @@ function SectionOne() {
         heading={
           "find a package that suits you with competitive offers from Amazon Best deal you could have bro"
         }
-        link={"/blank"}
+        link={"/Page"}
         linkname={"Product Serve"}
       />
       <One
@@ -24,7 +24,7 @@ function SectionOne() {
         heading={
           "find a package that suits you with competitive offers from Amazon Best deal you could have bro"
         }
-        link={"Garden Farm"}
+        link={"/Page"}
         linkname={"Stuff Haha"}
       />
       <One
@@ -32,7 +32,7 @@ function SectionOne() {
         heading={
           "find a package that suits you with competitive offers from Amazon Best deal you could have bro"
         }
-        link={"/blank"}
+        link={"/Page"}
         linkname={"Designer line"}
       />
     </div>

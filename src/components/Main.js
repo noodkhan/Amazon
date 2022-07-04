@@ -6,7 +6,6 @@ function Main() {
     <>
       <div className="background-blue">
         <Top />
-        {/* <Bottom/> */}
       </div>
     </>
   );

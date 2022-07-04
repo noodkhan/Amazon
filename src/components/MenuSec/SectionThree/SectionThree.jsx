@@ -29,7 +29,7 @@ function SectionThree() {
         textOne={"Fuel Economy"}
         textTwo={ParagrpahOne}
         textThree={ParagraphTwo}
-        link={"/blank"}
+        link={"/Page"}
       />
     </div>
   );

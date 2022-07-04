@@ -37,7 +37,6 @@ body {
 }
 
 @layer components {
-
   .myflex {
     display: flex;
     align-items: center;
@@ -63,6 +62,7 @@ body {
     transform: scale(0.99);
     color: goldenrod;
     box-sizing: content-box;
+    text-decoration: underline;
   }
   .w-custom {
     width: 100%;
@@ -71,7 +71,7 @@ body {
     gap: 3rem;
   }
 
-  .textcustom{
+  .textcustom {
     font-size: 7px;
     text-transform: lowercase;
     font-family: "Raleway", sans-serif;
@@ -80,8 +80,5 @@ body {
     align-items: center;
     flex-wrap: wrap;
     letter-spacing: 8px;
-
   }
- 
-
 }

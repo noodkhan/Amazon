@@ -6,7 +6,6 @@
 .hole {
   font-size: larger;
   color: green;
-  height: 300px;
   display: flex;
   background-color: goldenrod;
   transition: all 1s ease-in-out;
@@ -23,10 +22,7 @@ main {
   background: var(--dark_Amazon);
 }
 
-
-
-
-@media screen and (min-width: 800px) {
+/* @media screen and (min-width: 800px) {
   .gradient {
     width: 100%;
     height: 10%;
@@ -37,7 +33,6 @@ main {
     bottom: -2%;
     background: linear-gradient(to bottom, var(--dark_Amazon), transparent);
   }
-  
 }
 
 @media screen and (max-width: 800px) {
@@ -49,47 +44,22 @@ main {
     bottom: 20%;
     background: linear-gradient(to bottom, var(--dark_Amazon), transparent);
   }
-
-}
+} */
 
 .background-blue {
   background-color: var(--dark_Amazon);
 }
 
-.pad {
-  border: 10px solid orange;
+.padSet {
+  border: 5px solid whitesmoke;
   padding: 30px;
 }
 
-.boi {
-  margin-top: 1rem;
-  width: 100%;
-  font-size: larger;
-  color: whitesmoke;
-  display: flex;
-  justify-content: center;
-  background: linear-gradient(rgb(255, 174, 0), rgb(233, 153, 4));
-  transition: all 1s ease-in-out;
-  font-size: 25px;
-  font-weight: bold;
-  font-family: "Concert One", cursive;
-  margin-right: auto;
-  margin-left: auto;
-  left: 0;
-  right: 0;
-}
-
-.boi :hover,
-.boi ::before {
-  transition: all 1s ease-in-out;
-  transform: scale(1.05);
-  color: bisque;
-}
 
 .card {
   display: flex;
   flex-wrap: wrap;
-  justify-content: stretch;
+  justify-content: center;
   align-items: stretch;
 }
 
@@ -113,8 +83,58 @@ main {
   cursor: pointer;
 }
 
+
+.boi {
+  border-radius: 10px;
+  width: 80%;
+  font-size: larger;
+  color: whitesmoke;
+  display: flex;
+  bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  justify-content: center;
+  background: linear-gradient(rgb(34, 23, 0), rgb(29, 19, 1));
+  transition: all 1s ease-in-out;
+  font-size: 18px;
+  font-weight: 200;
+  font-family: "Raleway";
+}
+
+.boi :hover,
+.boi ::before {
+  transition: all 1s ease-in-out;
+  transform: scale(1.05);
+  color: bisque;
+}
+
+
+.Wedone{
+  background: black;
+}
+
 .containerBox h2 {
   font-size: x-large;
+}
+
+@media screen and (max-width:1000px) {
+  .mainCard {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (min-width:1000px){
+  .mainCard {
+    margin-top: 24rem;
+  }  
+}
+
+
+@media screen and (min-width: 1500px) {
+  .mainCard {
+    margin-top: 36rem;
+  }
 }
 
 
