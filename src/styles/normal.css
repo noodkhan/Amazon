@@ -1,6 +1,7 @@
 :root {
   --light_Amazon: #232f3e;
   --dark_Amazon: #131921;
+  --colorCustom: rgb(197, 160, 57);
 }
 
 .hole {
@@ -51,16 +52,103 @@ main {
 }
 
 .padSet {
-  border: 5px solid whitesmoke;
   padding: 30px;
 }
 
 .card {
+  padding: 3rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: stretch;
+  transition: 1s ease-in-out;
 }
+
+.filter{
+  margin-left: 3.5rem;
+  height: 450px;
+  background-color: #131921;
+  object-fit: cover;
+
+}
+
+
+.butt{
+  height: 20%;
+   gap: 5rem;
+   transition: all 500ms ease-in-out;
+   background: white;
+   text-align: center;
+}
+
+.butthole{
+  transition: all 500ms ease-in-out;
+  border: 1px solid var(--colorCustom);
+  width: 30px;
+  background-color: white;
+  text-transform: uppercase;
+}
+
+.priceSlice{
+  background: white;
+  height: 20%;
+  width: 100%;
+  box-shadow: 0px 0px 10px #c1c1;
+  margin: 0px auto;
+  padding: 39px 60px;
+}
+
+.priceSlice h2{
+  margin-top: 1rem;
+}
+
+.circleRange{
+  width: 80%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #925504;
+  outline: none;
+  height: 4px;
+  border-radius: 10px;
+}
+
+.circleRange::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  background: #3f51b5;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.circleRange::-moz-slider-thumb{
+  -moz-appearance: none;
+  background: #3f51b5;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.cate{
+  background: white;
+  height: 40%;
+}
+
+.cate h2{
+ letter-spacing: 3px;
+ font-weight: bold;
+ font-size: 15px; 
+}
+
+.cate p{
+  font-family: "Raleway";
+  color: var(--colorCustom);
+  font-weight: bolder;
+  letter-spacing: 1px;
+  margin-left: 2rem;
+  font-size: 15px;
+}
+
 
 .containerbox {
   position: absolute;
@@ -84,20 +172,20 @@ main {
 
 .boi {
   border-radius: 10px;
-  width: 80%;
+  width: 90%;
   font-size: larger;
   color: whitesmoke;
   display: flex;
-  bottom: 30px;
-  text-transform: uppercase;
+  bottom: 0px;
+  text-transform: lowercase;
   letter-spacing: 1px;
   position: absolute;
   justify-content: center;
-  background: linear-gradient(rgb(34, 23, 0), rgb(29, 19, 1));
+  background: linear-gradient(rgb(65, 45, 2), rgb(46, 30, 0));
   transition: all 1s ease-in-out;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 200;
-  font-family: "Raleway";
+  font-family: "Roboto";
 }
 
 .boi :hover,
@@ -114,9 +202,7 @@ main {
   transition: all 1s ease-in-out;
 }
 
-
 .location {
-  margin-right: 1rem;
   margin-top: auto;
   top: 0;
   bottom: 0;
@@ -124,27 +210,144 @@ main {
   height: 2rem;
 }
 
+.carditem {
+  position: relative;
+  background: white;
+  padding: 60px;
+  text-align: center;
+}
+
+.fix {
+  position: relative;
+}
+
+.titleBackground {
+  position: absolute;
+  left: 80px;
+  top: 0;
+  bottom: 0;
+  margin-bottom: auto;
+  margin-top: auto;
+  transition: 1s ease-in-out;
+}
+
+.titleBackground h2 {
+  color: var(--colorCustom);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 25px;
+  transition: 1s ease-in-out;
+}
+
+.titleBackground p {
+  letter-spacing: 1px;
+  font-size: 15px;
+  transition: 1s ease-in-out;
+  color: var(--colorCustom, --dark_Amazon);
+}
+
+.title {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 0.6;
+}
+
+.title h2 {
+  color: var(--colorCustom);
+  font-weight: bold;
+}
+
+.title p {
+  color: black;
+  font-weight: bold;
+}
+
+.show {
+  margin-top: 2rem;
+  position: relative;
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid rgba(197, 185, 145, 0.336);
+  border-bottom: 1px solid rgba(197, 185, 145, 0.336);
+}
+
+.showItem {
+  position: absolute;
+  position: relative;
+  left: 50px;
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+
+}
+
+.showItem p {
+  font-weight: bold;
+  color: #131921;
+  font-size: small;
+}
+
+.number {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  right: 20px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.numberbox {
+  color: #131921;
+}
+
 .containerBox h2 {
   font-size: x-large;
 }
 
-@media screen and (max-width: 1000px) {
-  .mainCard {
-    margin-top: 4rem;
-  }
+.colorGang {
+  gap: 1rem;
+  position: relative;
+  width: 100%;
+  height: 17%;
+  background: white;
 }
 
-@media screen and (min-width: 1000px) {
-  .mainCard {
-    margin-top: 24rem;
-  }
+
+.circle {
+  border-radius: 999px;
 }
 
-@media screen and (min-width: 1500px) {
-  .mainCard {
-    margin-top: 36rem;
-  }
+.input[type="color"] {
+  -webkit-appearance: none;
+  border: none;
 }
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+  border-radius: 999px;
+  border: none;
+  height: 50px;
+}
+
+
+
+
 
 /*
 font-family: 'Concert One', cursive;

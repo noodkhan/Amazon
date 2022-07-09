@@ -468,14 +468,14 @@ let URL =
   "https://mir-s3-cdn-cf.behance.net/project_modules/disp/d93a7617025011.562b49510d931.jpg";
 
 let extraCol = (
-  <div className="bg-white w-2/12  flex-col gap-3">
+  <div className=" w-2/12 flex flex-col gap-3 ">
     {/* Left Filter */}
     <Image
       src={URL}
       alt="Adobe"
       layout="responsive"
       width={200}
-      height={300}
+      height={280}
       objectFit="contain"
     />
     <Image
@@ -483,7 +483,7 @@ let extraCol = (
       alt="Adobe"
       layout="responsive"
       width={200}
-      height={300}
+      height={280}
       objectFit="contain"
     />
     <Image
@@ -491,7 +491,7 @@ let extraCol = (
       alt="Adobe"
       layout="responsive"
       width={200}
-      height={370}
+      height={280}
       objectFit="contain"
     />
   </div>

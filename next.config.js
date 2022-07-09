@@ -8,6 +8,8 @@ module.exports = {
       "unsplash.com",
       "fakestoreapi.com",
       "www.pngplay.com",
+      "img.freepik.com",
+      "cdn.shopify.com"
     ],
   },
 };

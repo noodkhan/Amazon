@@ -16,7 +16,7 @@ function Wallpaper({
     <div className="try hover:bye ">
       <div className="relative ">
         
-            <div className="relative w-full h-32 bg-gradient-to-t">
+            <div className="relative w-full  bg-gradient-to-t">
               <Carousel
                 autoPlay
                 infiniteLoop

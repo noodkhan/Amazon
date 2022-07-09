@@ -13,7 +13,7 @@ function Header() {
       {/* Menu Section */}
       <menu className="bg-amazon_blue-light flex  flex-grow items-center ">
         {/* Left Section */}
-        <div className=" flex items-center bg-amazon_blue-light">
+        <div className=" flex items-center bg-amazon_blue-light mt-4">
           <Link href="/" alt="logo">
             <a>
               <Image
@@ -82,13 +82,13 @@ function Header() {
           <Link href="/Page">
             <a className="try hover:bye ">Amazon Business </a>
           </Link>
-          <Link href="/">
+          <Link href="/Item">
             <a className="try hover:bye ">Today's Deals</a>
           </Link>
-          <Link href="/">
+          <Link href="/model">
             <a className="try hover:bye ">Electronics</a>
           </Link>
-          <Link href="/">
+          <Link href="/Concept">
             <a className="try hover:bye ">Food & Grocery</a>
           </Link>
           <Link href="/">

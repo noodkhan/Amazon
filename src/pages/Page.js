@@ -3,22 +3,19 @@ import Random from "../components/Random";
 import Header from "../components/Header";
 import MenuSec from "../components/MenuSec/MenuSec";
 import Image from "next/image";
+import Footer from "../components/Footer";
 
 function Page({ products }) {
   return (
     <>
       <Header />
-      <div className="background">
-        {/* <Image
-          src="/amazon-logo.png"
-          layout="responsive"
-          objectFit="contain"
-          width={1050}
-          height={200}
-        /> */}
-      </div>
-      <Random/>
+      <div className="background"></div>
+      <Random />
+      <main className="bg-white">
       <ProductFeed products={products} />
+      <Footer />
+      </main>
+      
       <MenuSec />
     </>
   );

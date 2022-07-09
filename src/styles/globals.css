@@ -50,7 +50,7 @@ body {
     font-family: "Raleway", sans-serif;
     letter-spacing: 2px;
     text-align: center;
-    transition: all 2000ms ease-in-out;
+    transition: all 1000ms ease-in-out;
     cursor: pointer;
     font-size: 0.75rem /* 12px */;
     line-height: 1rem /* 16px */;
@@ -58,12 +58,26 @@ body {
   .bye,
   .bye {
     transition: all 500ms ease-in-out;
-    border-radius: 999px;
     transform: scale(0.99);
     color: goldenrod;
     box-sizing: content-box;
-    text-decoration: underline;
+  
   }
+
+  .nextbye{
+    transform: scale(0.9);
+    box-sizing: content-box;
+    transition: 800ms ease-in-out;
+  }
+
+  .customhover , 
+  .customhover {
+    transition: all 500 ease-in-out;
+    transform: scale(0.9);
+  }
+
+
+
   .w-custom {
     width: 100%;
   }
